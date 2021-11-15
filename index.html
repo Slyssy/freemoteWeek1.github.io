@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="index.js"></script>
+
+    <title>Freemote Week 1</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1 class="title-primary">Freemote Week 1</h1>
+      </header>
+      <div class="page">
+        <section>
+          <a class="youtube" href="https://www.youtube.com" target="_blank"
+            >Go to YouTube</a
+          >
+          <div class="video">
+            <iframe
+              width="728"
+              height="409.5"
+              src="https://www.youtube-nocookie.com/embed/0qNWRVAtlFQ"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </section>
+
+        <aside>
+          <h2 style="font-style: italic">Creating Forms</h2>
+          <!--
+                    <form action="/my-site/submit">
+                       <label for="uname">Username</label>
+                      <input type="text" id="uname" name="uname" />
+                      <br />
+                      <br />
+                      <label for="email">Email</label>
+                      <input type="email" id="email" name="email" />
+                      <br />
+                      <br />
+                      <label for="pw">Password</label>
+                      <input type="password" id="pw" name="pw" />
+                      <br />
+                      <br />
+                      <label for="text">Comments</label>
+                      <textarea id="text" name="text"></textarea>
+                      <br />
+                      <br /> 
+                      <div class="selector">
+                        <label for="colors">Pick a color</label>
+                        <select name="colors" id="colors">
+                          <option value="-">Pick a Color</option>
+                          <option value="red">Red</option>
+                          <option value="green">Green</option>
+                          <option value="blue">Blue</option>
+                        </select>
+                      </div>
+                  
+                      <div class="checkbox">
+                        <div>
+                          <label for="first-option">First</label>
+                          <input type="checkbox" id="first-option" name="first-option" />
+                        </div>
+                        <div>
+                          <label for="second-option">Second</label>
+                          <input type="checkbox" id="second-option" name="second-option" />
+                        </div>
+                        <div>
+                          <label for="third-option">Third</label>
+                          <input type="checkbox" id="third-option" name="third-option" />
+                        </div>
+                      </div>
+                  
+                      <div class="radio">
+                        <label for="single-opt"></label>
+                        <div>
+                          <label for="a">A</label>
+                          <input type="radio" name="single-opt" id="a" value="a" />
+                        </div>
+                        <div>
+                          <label for="b">B</label>
+                          <input type="radio" name="single-opt" id="b" value="b" />
+                        </div>
+                        <div>
+                          <label for="c">C</label>
+                          <input type="radio" name="single-opt" id="c" value="c" />
+                        </div>
+                      </div>
+                  
+                      <input type="submit" />
+                      
+                    </form>
+                    -->
+          <form action="https://www.success.com/">
+            <div class="username">
+              <label for="uname">Username:</label>
+              <input type="text" id="uname" name="uname" />
+            </div>
+            <div class="password">
+              <label for="pw">Password:</label>
+              <input type="password" id="pw" name="pw" />
+            </div>
+            <div class="gender">
+              <label for="gender"> Select Your Gender</label>
+              <select name="gender" id="gender">
+                <option value="-">Select Gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+              </select>
+            </div>
+            <div class="submit">
+              <a href="https//:www.success.com" class="submit-button">Submit</a>
+            </div>
+          </form>
+        </aside>
+      </div>
+      <main>
+        <h2 class="subtitle">Let's Talk CSS Selectors!</h2>
+        <h3 class="css-subtitle">There are three main types of selectors.</h3>
+        <div class="css-selectors">
+          <ol class="selectors">
+            <li class="selector">Elements</li>
+
+            <ul>
+              <li class="selector-items">
+                <strong>*</strong> is the "Universal" selector. It selects
+                everything. You typically use these to remove element default
+                styles which makes it easier for you to modify each elements
+                location and style.
+              </li>
+              <li class="selector-items">
+                html element is the next most broad selector, followed by body.
+              </li>
+              <li class="selector-items">
+                You select this items in you css style sheet by simply typing
+                their name. For example, you can style the body element by
+                typing body{background-color: #d3d3d3d3}
+              </li>
+            </ul>
+            <img
+              id="universal-selector"
+              src="images/universal_selector.png"
+              alt="CSS Universal
+                    Selector Code Image"
+            />
+            <li class="selector">Classes</li>
+            <ul>
+              <li class="selector-items">
+                Classes allow you to style individual elements.
+              </li>
+              <li class="selector-items">
+                In CSS classes are prefixed by a dot. Where with elements, you
+                simply type the element name, with classes, you type
+                .class-name.
+              </li>
+              <li class="selector-items">
+                Separate multi-word class names with a " - ". If you add a
+                space, it will be treated like you are creating two separate
+                classes.
+              </li>
+              <li class="selector-items">
+                You can use a class as many times as you'd like.
+              </li>
+            </ul>
+            <img
+              id="class-selector"
+              src="images/class_selector.png"
+              alt="CSS Class Selector Code Image"
+            />
+            <li class="selector">ids</li>
+            <ul>
+              <li class="selector-items">
+                IDs are similar to classes. Instead of using a dot as a prefix,
+                you use hash symbol.
+              </li>
+              <li class="selector-items">
+                Unlike classes, you can only use an ID a single time in an HTML
+                document.
+              </li>
+              <li class="selector-items">
+                You select this items in you css style sheet by simply typing
+                their name. For example, you can style the body element by
+                typing body{background-color: #d3d3d3d3}
+              </li>
+              <img
+                id="id-selector"
+                src="images/id_selector.png"
+                alt="CSS Class Selector Code Image"
+              />
+            </ul>
+          </ol>
+        </div>
+        <h2 class="subtitle">
+          What is specificity, and how does it impact CSS styles?
+        </h2>
+        <div class="specificity">
+          <img
+            id="specificity-image"
+            src="images/specificity.png"
+            alt="Image Showing Specificity Hierarchy"
+          />
+          <div class="specificity-code">
+            <figure>
+              <img src="images/specificity_id.png" alt="Specificity ID Image" />
+              <figcaption>ID styles get priority over class styles</figcaption>
+            </figure>
+            <figure>
+              <img
+                src="images/specificity_class.png"
+                alt="Specificity Class Image"
+              />
+              <figcaption>
+                Class styles get priority over element styles
+              </figcaption>
+            </figure>
+            <figure>
+              <img
+                src="images/specificity_element.png"
+                alt="Specificity Class Image"
+              />
+              <figcaption>
+                Elements are the broadest, least specific styles.
+              </figcaption>
+            </figure>
+          </div>
+          <div class="override-specificity">
+            <div class="override-left">
+              <p class="override">
+                You can override specificity a couple of ways.
+              </p>
+              <div class="override-text">
+                <p>!important</p>
+                <br />
+                <p>Setting inline style attributes</p>
+              </div>
+            </div>
+            <div class="override-right">
+              <p class="avoid">
+                You should really avoid doing either of these.
+              </p>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>

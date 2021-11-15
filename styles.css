@@ -1,0 +1,234 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.container {
+  width: 1200px;
+  margin: auto;
+}
+header {
+  font-size: 46px;
+  color: #312e2e;
+  background-color: goldenrod;
+  display: flex;
+  justify-content: center;
+
+  padding: 30px;
+}
+
+.page {
+  display: flex;
+}
+
+a,
+a:visited {
+  color: #939393;
+}
+
+a:hover {
+  color: goldenrod;
+  font-weight: bold;
+  text-decoration: underline goldenrod;
+}
+
+a:active {
+  background-color: black;
+  font-style: italic;
+}
+
+section {
+  background-color: #312e2e;
+  display: flex;
+  flex-basis: 100%;
+  padding: 30px;
+  align-content: stretch;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.video {
+  align-self: center;
+}
+
+.subtitle {
+  color: #d3d3d3;
+  font-size: 34px;
+  margin-top: 30px;
+}
+
+.css-subtitle {
+  color: #d3d3d3;
+}
+
+.selectors {
+  color: #d3d3d3;
+  margin-left: 40px;
+}
+
+.selector {
+  font-size: 20px;
+  color: goldenrod;
+  margin-top: 10px;
+}
+
+.selector-items {
+  margin-left: 20px;
+  font-size: 18px;
+  padding: 10px;
+  list-style-type: square;
+}
+
+#universal-selector {
+  display: block;
+  margin: 10px auto 20px auto;
+  width: 90%;
+}
+
+img {
+  box-shadow: 10px 10px 8px #1f1d1d;
+}
+
+#class-selector {
+  display: block;
+  margin: 20px auto 20px auto;
+  width: 40%;
+}
+
+#id-selector {
+  display: block;
+  margin: 20px auto 20px auto;
+  width: 60%;
+}
+
+aside {
+  order: -1;
+  background-color: #939393;
+  color: #fff;
+  padding: 30px;
+}
+
+form {
+  display: block;
+}
+
+.username {
+  margin-top: 10px;
+}
+
+.password {
+  margin-top: 10px;
+}
+
+.gender {
+  margin-top: 10px;
+}
+
+.submit-button {
+  display: inline-block;
+  padding: 0.3em 1.2em;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 2em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: #ffffff;
+  background-color: goldenrod;
+  text-align: center;
+  transition: all 0.2s;
+  margin-top: 4rem;
+}
+
+.submit-button:hover {
+  background-color: #312e2e;
+}
+
+main {
+  background-color: #312e2e;
+  display: flex;
+  padding: 30px;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.css-selectors {
+  border: 2px solid goldenrod;
+  border-radius: 35px;
+}
+
+.specificity-code {
+  display: flex;
+  gap: 20px;
+  flex-basis: 1100px;
+  justify-content: space-around;
+  margin: 40px 20px 40px 20px;
+}
+
+#specificity-image {
+  display: block;
+  margin: 20px auto 20px auto;
+  width: 80%;
+  display: inline-block;
+}
+
+figcaption {
+  color: goldenrod;
+  font-style: italic;
+  padding: 5px;
+  text-align: center;
+  font-size: 10px;
+}
+
+.specificity {
+  border: 2px solid goldenrod;
+  border-radius: 35px;
+}
+
+#specificity-image {
+  display: block;
+  margin: 20px auto 20px auto;
+}
+.override {
+  background-color: #186ca3;
+  color: #fff;
+  padding: 10px 40px 10px 10px;
+  border-radius: 20px 20px 0px 0px;
+  box-shadow: 10px 10px 8px #1f1d1d;
+}
+
+.override-text {
+  background-color: #000;
+  color: goldenrod;
+  font-size: 2rem;
+  font-weight: 1000;
+  padding: 40px 10px 40px 10px;
+  text-align: center;
+  border-radius: 0px 0px 20px 20px;
+  box-shadow: 10px 10px 8px #1f1d1d;
+}
+
+.override-right {
+  background-color: #186ca3;
+  color: goldenrod;
+  font-size: 2rem;
+  font-weight: 1000;
+  padding: 40px 10px 40px 20px;
+  text-align: center;
+  /* border-radius: 20px 20px 20px 20px; */
+
+  box-shadow: 10px 0px 8px #1f1d1d inset;
+
+  align-self: center;
+}
+
+.override-specificity {
+  margin-top: 60px;
+  display: flex;
+  flex-basis: 1100px;
+  justify-content: center;
+  margin: 40px 20px 40px 20px;
+}
