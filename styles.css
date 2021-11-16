@@ -362,11 +362,21 @@ figcaption {
   margin-bottom: 50px;
 }
 
+.bottom-row1 img {
+  width: 100%;
+  height: auto;
+}
+
 .bottom-row2 {
   display: flex;
   justify-content: space-around;
   align-items: center;
   margin-bottom: 50px;
+}
+
+.bottom-row2 img {
+  width: 100%;
+  height: auto;
 }
 
 .bottom-row3 {
@@ -376,11 +386,21 @@ figcaption {
   margin-bottom: 50px;
 }
 
+.bottom-row3 img {
+  width: 100%;
+  height: auto;
+}
+
 .bottom-row4 {
   display: flex;
   justify-content: space-around;
   align-items: center;
   margin-bottom: 50px;
+}
+
+.bottom-row4 img {
+  width: 100%;
+  height: auto;
 }
 
 .bottom-row5 {
@@ -390,17 +410,7 @@ figcaption {
   margin-bottom: 50px;
 }
 
-.wrapper {
-  display: flex;
-  width: 900px;
-}
-.box {
-  border: 5px solid darkblue;
-  width: 40%;
-  padding: 10%;
-}
-
-.box {
-  font-size: 20px;
-  margin: 30px;
+.bottom-row5 img {
+  width: 100%;
+  height: auto;
 }
