@@ -85,6 +85,7 @@ section {
 
 #universal-selector {
   display: block;
+  width: 70%;
   margin: 20px auto;
 }
 
@@ -311,6 +312,7 @@ figcaption {
 
 .boxes-2 img {
   width: 30%;
+  height: auto;
 }
 
 .box-list {
@@ -319,4 +321,35 @@ figcaption {
   font-size: 1.25rem;
   line-height: 3;
   align-self: center;
+}
+
+.sizing-section {
+  display: flex;
+}
+.sizing-box-top {
+  font-size: 1.2rem;
+  text-align: center;
+  background-color: #186ca3;
+  color: #fff;
+  padding: 10px 40px;
+  border-radius: 20px 20px 0px 0px;
+  box-shadow: 10px 10px 8px #1f1d1d;
+  margin: 40px 30px 0 30px;
+}
+
+.sizing-box-bottom {
+  background-color: #000;
+  color: rgb(218, 165, 32);
+  font-size: 1.5rem;
+  font-weight: 1000;
+  padding: 40px 10px;
+  text-align: left;
+  padding-left: 2rem;
+  border-radius: 0px 0px 20px 20px;
+  box-shadow: 10px 10px 8px #1f1d1d;
+  margin: 0 30px 30px 30px;
+}
+
+.sizing-box-bottom figure {
+  margin-bottom: 30px;
 }
