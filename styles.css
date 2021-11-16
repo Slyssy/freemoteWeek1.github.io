@@ -326,6 +326,11 @@ figcaption {
 .sizing-section {
   display: flex;
 }
+
+.sizing-section-left {
+  flex-basis: 100%;
+}
+
 .sizing-box-top {
   font-size: 1.2rem;
   text-align: center;
@@ -350,6 +355,52 @@ figcaption {
   margin: 0 30px 30px 30px;
 }
 
-.sizing-box-bottom figure {
-  margin-bottom: 30px;
+.bottom-row1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.bottom-row2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.bottom-row3 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.bottom-row4 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.bottom-row5 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.wrapper {
+  display: flex;
+  width: 900px;
+}
+.box {
+  border: 5px solid darkblue;
+  width: 40%;
+  padding: 10%;
+}
+
+.box {
+  font-size: 20px;
+  margin: 30px;
 }
