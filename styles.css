@@ -306,21 +306,24 @@ figcaption {
 
 .boxes-2 {
   display: flex;
+  flex-wrap: wrap;
+  padding: 40px;
   justify-content: space-around;
   margin: 40px 20px;
 }
 
 .boxes-2 img {
   width: 30%;
-  height: auto;
 }
 
 .box-list {
   display: block;
+  flex-basis: auto;
   color: #d3d3d3;
   font-size: 1.25rem;
   line-height: 3;
   align-self: center;
+  list-style-position: inside;
 }
 
 .sizing-section {
@@ -413,4 +416,5 @@ figcaption {
 .bottom-row5 img {
   width: 100%;
   height: auto;
+  background-color: #0b8800;
 }
